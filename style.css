@@ -53,13 +53,17 @@ body {
 }
 
 .button {
+    border: #3882f6 solid 1px;
     background-color: #3882f6;
     color: #f9faf8;
+    width: fit-content;
+    padding: .5em 1em;
+    border-radius: 1em;
+    font-weight: 700;
 }
 
 .button-inverted {
-    background-color: #f9faf8;
-    color: #3882f6;
+    border: #f9faf8 solid 1px;
 }
 
 .header {
@@ -73,5 +77,28 @@ body {
     display: flex;
     gap: 10px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    padding: 3rem 7rem 7em;
+}
+
+.home-left,
+.home-right {
+    flex: 1;
+}
+
+.home-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.home-right {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
