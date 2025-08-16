@@ -102,3 +102,37 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 7rem 7rem;
+}
+
+.information-header {
+    margin-bottom: 2rem;
+}
+
+.information-container {
+    display: flex;
+    gap: 10px;
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+}
+
+.img-container {
+    background-color: #3882f6;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
